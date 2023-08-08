@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "shaniraq-kz"
+version = "0.1.0"
+description = ""
+authors = ["Azamat <dzhunebaev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "shaniraq"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.1"
+uvicorn = "^0.23.2"
+sqlalchemy = "^2.0.19"
+pydantic = "^2.1.1"
+python-jose = "^3.3.0"
+python-multipart = "^0.0.6"
+attrs = "^23.1.0"
+alembic = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
